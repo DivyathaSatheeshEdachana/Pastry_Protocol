@@ -37,7 +37,7 @@ Below is a table showing the average number of hops we obtained for different va
    10000      |      10       |           3.3388
    
    
-First Header  | Second Header
+numNodes  | numRequests
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+10  | 5
+100  | 5
