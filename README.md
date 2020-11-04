@@ -37,7 +37,7 @@ Below is a table showing the average number of hops we obtained for different va
    10000      |      10       |           3.3388
    
    
-numNodes  | numRequests
-------------- | -------------
-10  | 5
-100  | 5
+numNodes  | numRequests  | average number of hops
+------------- | ------------- | -------------
+10  | 5  | 0.9
+100  | 5  | 1.58
