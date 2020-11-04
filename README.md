@@ -24,4 +24,9 @@ dotnet fsi --langversion:preview project3.fsx numNodes numRequests
 
 ## Largest network managed to deal with :
 
-Largest network that could be managed consisted of 10000 peers. For 10000 nodes, when each peer made 10 requests, we obtained average number of hops as 3.37ms. 
+Largest network that could be managed consisted of 10,000 peers. For 10,000 nodes, when each peer made 10 requests, we obtained average number of hops as 3.3388 ms.
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
