@@ -26,16 +26,7 @@ dotnet fsi --langversion:preview project3.fsx numNodes numRequests
 
 Largest network that could be managed consisted of 10,000 peers. For 10,000 nodes, when each peer made 10 requests, we obtained average number of hops as 3.3388 ms.
 
-Below is a table showing the average number of hops we obtained for different values of numNodes and numRequests :
-
-   numNodes   |  numRequests  | average number of hops
-------------- | ------------- | ----------------------
-      10      |       5       |           0.9
-     100      |       5       |           1.58
-    1000      |       5       |           2.51
-   10000      |       5       |           3.323
-   10000      |      10       |           3.3388
-   
+Below is a table showing the average number of hops we obtained for different values of numNodes and numRequests :   
    
 numNodes  | numRequests  | average number of hops
 ------------- | ------------- | -------------
