@@ -16,7 +16,7 @@ dotnet fsi --langversion:preview project3.fsx numNodes numRequests
 <ul>
 <li>The protocol is implemented as per the Pastry paper. Pastry APIs described are called within the program.</li>
 <li>The program runs correctly as per requirements</li>
-<li>As per the parameter 'numNodes' passed, nodes get added to the network. Each second it starts to request based on the value passed for 'numRequests' for each of the nodes. Each of these requests are routed correctly to the node which has its id numerically closest to the given key requested.</li>
+<li>As per the parameter 'numNodes' passed, nodes get added to the network. Each second the system starts to request based on the value passed for 'numRequests' for each of the nodes. Each of these requests are routed correctly to the node which has its id numerically closest to the given key requested.</li>
 <li>The program terminates exactly when all the nodes have made the given number of requests.</li>  
 <li>As per the requirements, the average number of hops or node connections is calculated and printed on to the console.</li>
 <li>All the requirements for the project are met and have successfully implemented the protocol.</li>
